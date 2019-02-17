@@ -1,0 +1,15 @@
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: black solid 1px;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.login-button {
+  margin: auto;
+  margin-right: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

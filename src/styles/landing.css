@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.landing-page {
+  margin: 10px 50px 50px 50px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 200px;
+  border-bottom: black solid 1px;
+  padding: 100px;
+  position: relative;
+}
+
+ .top::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 40px solid black;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.bottom {
+  text-align: center;
+  margin: 50px;
+}
+
+.how-it-works h2 {
+  margin-bottom: 0;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+}
